@@ -18,6 +18,10 @@
 
 - 基于改写的 get_project_settings 和 run_scrapy_spider_from_file 的多项目多爬虫展示代码
 
+## redis_queue
+
+- 基于 redis list 的先进行分布式队列, 用于更新多项目多账号的 cookie
+
 
 # Todos
 
