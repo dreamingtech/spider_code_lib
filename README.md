@@ -14,6 +14,11 @@
 
 - 从文件运行 scrapy spider
 
+## scrapy_demo
+
+- 基于改写的 get_project_settings 和 run_scrapy_spider_from_file 的多项目多爬虫展示代码
+
+
 # Todos
 
 - [ ] README.md 文件的完善
