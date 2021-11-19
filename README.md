@@ -1,5 +1,6 @@
 # spider_code_lib
-spider code snippets, projects, knowleages, etc.
+
+- spider code snippets, projects, knowleages, etc.
 
 ## ctrf_handler
 
@@ -8,6 +9,10 @@ spider code snippets, projects, knowleages, etc.
 ## get_project_settings 的改写
 
 - 通过修改 get_project_settings, 可以通过传参来读取不同的配置文件, 从而整合多个爬虫项目, 或区分 dev, pro 环境, 
+
+## run_scrapy_spider_from_file
+
+- 从文件运行 scrapy spider
 
 # Todos
 
