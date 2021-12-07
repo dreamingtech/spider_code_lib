@@ -160,6 +160,11 @@ REDIS_ITEMS_SERIALIZER = 'json.dumps'
 # REDIS_HOST = 'localhost'
 # REDIS_PORT = 6379
 
+# 保存数据到 redis 中
+ITEM_PIPELINES = {
+   'pipelines.CustomKeyRedisPipeline': 100,
+}
+
 
 # --------- 导入数据库和 email 配置信息 ---------
 
