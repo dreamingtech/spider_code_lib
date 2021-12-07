@@ -2,19 +2,11 @@
 # dev settings
 from . import *
 
-REDIS_CONFIG = {
-    'host': '127.0.0.1',
-    'port': 6379,
-    'db': 2,
-    'password': 'password',
-}
+# 使用 redis 和 mysql 测试库
+REDIS_CONFIG = SETTINGS_DATABASE.get('redis_settings_dev')
+REDIS_URL = 'redis://:{password}@{host}:{port}/{db}'.format(**REDIS_CONFIG)
 
-MYSQL_CONFIG = {
-    'host': '127.0.0.1',
-    'port': 3306,
-    'user': 'spider',
-    'password': 'spider',
-    'db': 'demo_dev',
-    'charset': 'utf8',
-}
+MYSQL_CONFIG = SETTINGS_DATABASE.get('mysql_settings_dev')
 
+LOG_LEVEL = 'DEBUG'
+# LOG_LEVEL = 'INFO'

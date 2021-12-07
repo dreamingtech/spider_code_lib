@@ -2,6 +2,10 @@
 
 - spider code snippets, projects, knowleages, etc.
 
+## scrapy_redis_demo
+
+- `生成请求` 和 `解析请求` 分离的 分布式爬虫
+
 ## ctrf_handler
 
 - 基于 TimedRotatingFileHandler 改写的 CurrentTimedRotatingFileHandler
