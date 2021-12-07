@@ -4,7 +4,7 @@
 
 ## scrapy_redis_demo
 
-- `生成请求` 和 `解析请求` 分离的 分布式爬虫
+- `生成请求`, `解析请求` 和 `保存数据` 分离的 scrapy-redis 分布式爬虫
 
 ## ctrf_handler
 

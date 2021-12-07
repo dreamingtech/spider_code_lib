@@ -1,3 +1,4 @@
 scrapy
 scrapy-redis
 requests
+aiomysql
