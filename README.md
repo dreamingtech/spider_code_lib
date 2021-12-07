@@ -20,12 +20,15 @@
 
 ## redis_queue
 
-- 基于 redis list 的先进行分布式队列, 用于更新多项目多账号的 cookie
+- 基于 redis list 的先进先出队列, 用于更新多项目多账号的 cookie
 
 ## bloom_filter
 
 - 内存型和 redis 型布隆过滤器
 
+## spider_plus_framework
+
+- 仿 scrapy 爬虫框架
 
 # Todos
 
