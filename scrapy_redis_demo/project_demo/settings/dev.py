@@ -6,7 +6,10 @@ from . import *
 REDIS_CONFIG = SETTINGS_DATABASE.get('redis_settings_dev')
 REDIS_URL = 'redis://:{password}@{host}:{port}/{db}'.format(**REDIS_CONFIG)
 
-MYSQL_CONFIG = SETTINGS_DATABASE.get('mysql_settings_dev')
+MYSQL_CONFIGS = {
+    'mysql_settings_dev': SETTINGS_DATABASE.get('mysql_settings_dev'),
+    # 'mysql_settings_pro': SETTINGS_DATABASE.get('mysql_settings_pro'),
+}
 
 LOG_LEVEL = 'DEBUG'
 # LOG_LEVEL = 'INFO'
