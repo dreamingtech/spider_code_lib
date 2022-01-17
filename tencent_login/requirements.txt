@@ -1,0 +1,4 @@
+# -*- coding: utf-8 -*-
+requests==2.26.0
+Scrapy==2.5.1
+PyExecJS==1.5.1

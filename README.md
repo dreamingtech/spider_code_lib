@@ -2,6 +2,10 @@
 
 - spider code snippets, projects, knowleages, etc.
 
+## tencent_login
+
+- 破解 https://ad.qq.com 的 js 加密和登录逻辑, 适用于无验证码时的登录, 理论上适于所有腾讯网站登录
+
 ## get_scrapy_settings
 
 - 通过修改 scrapy get_project_settings, 可以通过传参来读取不同的配置文件, 从而整合多个爬虫项目, 或区分 dev, pro 环境, 
