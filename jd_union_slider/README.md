@@ -13,5 +13,5 @@
 
 ## TODOS
 
--[x] 中文输入法时无法正确输入用户名和密码, 会输入成中文
--[ ] 使用前修改 settings.__init__.py 中的 USER_LIAN_ZHONG 为自己的联众信息
+- [x] 中文输入法时无法正确输入用户名和密码, 会输入成中文
+- [ ] 使用前修改 settings.__init__.py 中的 USER_LIAN_ZHONG 为自己的联众信息
