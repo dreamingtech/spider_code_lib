@@ -2,6 +2,11 @@
 
 - spider code snippets, projects, knowleages, etc.
 
+## jd_union_slider
+
+- 处理京东联盟滑块验证码 https://union.jd.com/index
+- selenium + pynput + 联众
+
 ## tencent_login
 
 - 破解 https://ad.qq.com 的 js 加密和登录逻辑, 适用于无验证码时的登录, 理论上适于所有腾讯网站登录
